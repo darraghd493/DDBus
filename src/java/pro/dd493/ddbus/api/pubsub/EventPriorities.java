@@ -1,4 +1,4 @@
-package lol.reek.client.event.api.pubsub;
+package pro.dd493.ddbus.api.pubsub;
 
 public final class EventPriorities {
     public static final byte LOWEST = 0;

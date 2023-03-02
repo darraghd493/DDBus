@@ -1,6 +1,6 @@
-package lol.reek.client.event.bus;
+package pro.dd493.ddbus.bus;
 
-import lol.reek.client.event.api.pubsub.bus.Bus;
+import pro.dd493.ddbus.api.pubsub.bus.Bus;
 import lombok.Getter;
 
 import java.lang.reflect.Method;

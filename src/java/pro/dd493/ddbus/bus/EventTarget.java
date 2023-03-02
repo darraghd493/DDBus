@@ -1,6 +1,6 @@
-package lol.reek.client.event.bus;
+package pro.dd493.ddbus.bus;
 
-import lol.reek.client.event.api.pubsub.EventPriorities;
+import pro.dd493.ddbus.api.pubsub.EventPriorities;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

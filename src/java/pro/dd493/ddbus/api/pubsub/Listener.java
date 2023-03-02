@@ -1,4 +1,4 @@
-package lol.reek.client.event.api.pubsub;
+package pro.dd493.ddbus.api.pubsub;
 
 @FunctionalInterface
 public interface Listener<Event> {

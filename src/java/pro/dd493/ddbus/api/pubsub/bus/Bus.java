@@ -1,4 +1,4 @@
-package lol.reek.client.event.api.pubsub.bus;
+package pro.dd493.ddbus.api.pubsub.bus;
 
 public interface Bus<Event> {
     void register(final Object listener);
