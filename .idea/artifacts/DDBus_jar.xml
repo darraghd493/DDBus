@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DDBus:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DDBus_jar</output-path>
+    <root id="archive" name="DDBus.jar">
+      <element id="module-output" name="DDBus" />
+    </root>
+  </artifact>
+</component>

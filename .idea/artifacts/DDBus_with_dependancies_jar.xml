@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DDBus-with-dependancies:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DDBus_with_dependancies_jar</output-path>
+    <root id="archive" name="DDBus.jar">
+      <element id="module-output" name="DDBus" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/lombok-1.18.24.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -45,9 +45,7 @@ public class EventBus<Event> implements Bus<Event> {
             final Iterator<CallSite<Event>> iterator = sites.iterator();
             while (iterator.hasNext()) {
                 final CallSite<Event> site = iterator.next();
-                if (site.getSource() == subscriber) {
-                    iterator.remove();
-                }
+                if (site.getSource() == subscriber) iterator.remove();
             }
         }
     }
@@ -58,9 +56,7 @@ public class EventBus<Event> implements Bus<Event> {
         if (sites != null) {
             final List<CallSite<Event>> sitesCopy = new ArrayList<>(sites);
             try {
-                for (final CallSite<Event> site : sitesCopy) {
-                    site.invoke(event);
-                }
+                for (final CallSite<Event> site : sitesCopy) site.invoke(event);
             } catch (final Exception e) {
                 e.printStackTrace();
             }
