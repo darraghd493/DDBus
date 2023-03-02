@@ -1,4 +1,4 @@
-# ddbus
+# DDBus
 A basic event bus made by [darraghd493](https://github.com/darraghd493).
 
 ## Usage
